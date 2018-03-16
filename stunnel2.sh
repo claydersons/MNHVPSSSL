@@ -1,1 +1,5 @@
-wget http://freedomssh.com/freedom/scripts/SSL/2/stunnel4 && wget http://freedomssh.com/freedom/scripts/SSL/2/stunnel.conf && wget http://freedomssh.com/freedom/scripts/SSL/2/stunnel.sh && sh stunnel.sh
+wget https://raw.githubusercontent.com/claydersons/MNHVPSSSL/master/stunnel4
+wget https://raw.githubusercontent.com/claydersons/MNHVPSSSL/master/stunnel.conf
+wget https://raw.githubusercontent.com/claydersons/MNHVPSSSL/master/stunnel.sh
+chmod +x stunnel.sh
+./stunnel.sh
