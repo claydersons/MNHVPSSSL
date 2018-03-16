@@ -15,7 +15,7 @@ echo Instalado.
 sleep 2
 clear
 
-#ConfiguraÃ§Ã£o
+#Configuração
 echo Configurando...
 sleep 2
 cat stunnel.conf >> /etc/stunnel/stunnel.conf
