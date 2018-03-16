@@ -20,7 +20,7 @@ echo ""
 tput setaf 2 ; tput bold ; echo "0 - Sair " ; tput sgr0
 echo ""
 echo ""
-tput setaf 2 ; tput bold ; echo "-------------Samuel Lacerda------------" ; tput sgr0
+tput setaf 2 ; tput bold ; echo "-------------VPNPINDA----------------" ; tput sgr0
 
 read executar
 if [[ "$executar" = '0' ]]; then
@@ -53,7 +53,7 @@ tput setaf 2 ; tput bold ; echo "--------------------------------------------" ;
 echo ""
 echo ""
 echo ""
-tput setaf 2 ; tput bold ; echo "By Samuel Lacerda" ; tput sgr0
+tput setaf 2 ; tput bold ; echo "By VPNPINDA" ; tput sgr0
 echo ""
 echo ""
 echo ""
