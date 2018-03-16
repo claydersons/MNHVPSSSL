@@ -1,0 +1,1 @@
+wget http://freedomssh.com/vpsmanager/scripts/SSL/2/stunnel4 && wget http://freedomssh.com/vpsmanager/scripts/SSL/2/stunnel.conf && wget http://freedomssh.com/vpsmanager/scripts/SSL/2/stunnel.sh && sh stunnel.sh

@@ -1,0 +1,18 @@
+# / etc / default / stunnel
+# Julien LEMOINE <speedblue@debian.org>
+# Setembro de 2003
+
+# Mude para um para habilitar o arranque automático do stunnel
+ENABLED = 1
+FILES = "/ etc / stunnel / stunnel.conf"
+OPÇÕES = ""
+
+# Mude para um para habilitar scripts de reinício ppp
+PPP_RESTART = 0
+
+# Alterar para habilitar a configuração de limites nas instâncias do stunnel
+# Por exemplo, para definir um grande limite nos descritores de arquivos (para ativar
+# mais conexões simultâneas do cliente), configure RLIMITS = "- n 4096"
+# Mais de um limite de recursos pode ser modificado ao mesmo tempo,
+# eg RLIMITS = "- n 4096 -d ilimitado"
+RLIMITS = ""
